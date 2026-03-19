@@ -8,7 +8,7 @@ The system integrates document ingestion, semantic retrieval, and LLM-based resp
 ---
 ## 🚀 Features
 
-###🔎 Multi-Source Data Ingestion
+### 🔎 Multi-Source Data Ingestion
 - Supports PDFs, websites, and CSV files
 - Automated parsing and chunking for efficient retrieval
 
@@ -55,11 +55,11 @@ The system integrates document ingestion, semantic retrieval, and LLM-based resp
 ---
 
 ## 🛠️ Tech Stack
-- Framework: LlamaIndex
-- Vector Database: Qdrant
-- Frontend: Streamlit
-- LLM Integration: OpenAI / compatible LLM APIs
-- Data Sources: PDF, Web, CSV
+- **Framework:** LlamaIndex
+- **Vector Database:** Qdrant
+- **Frontend:** Streamlit
+- **LLM Integration:** Gemini
+- **Data Sources:** PDF, Web, CSV
 
 ---
 

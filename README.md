@@ -30,26 +30,26 @@ The system integrates document ingestion, semantic retrieval, and LLM-based resp
 
 ## 🏗️ System Architecture
 
-### Data Ingestion Layer
+### 1. Data Ingestion Layer
 - Load and preprocess PDFs, web pages, and CSV data
 - Chunk documents into smaller semantic units
 
-### Indexing Layer
+### 2. Indexing Layer
 - Store embeddings in Qdrant vector database
 - Build graph-based and structured indices
 
-### Retrieval Layer
+### 3. Retrieval Layer
 #### Multi-retriever pipeline:
 - Vector similarity search
 - Sentence-window retrieval
 - Graph-based retrieval
 - Apply re-ranking for optimal context selection
 
-### Generation Layer
+### 4. Generation Layer
 - Pass retrieved context to LLM
 - Generate grounded answers with citations
 
-### Frontend
+### 5. Frontend
 - Streamlit app for user interaction
 
 ---

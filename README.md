@@ -71,6 +71,28 @@ The system integrates document ingestion, semantic retrieval, and LLM-based resp
 
 ---
 
+## 🚀 How to Start the Application
+
+Follow the steps below to run both the frontend and backend services locally.
+
+### 1. Start the Docker engine for Qdrant vector database
+
+### 2. Run the Inngest development server
+
+```bash
+npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
+```
+
+### 3. Start the Frontend (Streamlit)
+
+Run the following command to launch the Streamlit app:
+
+```bash
+uv run streamlit run .\streamlit_app.py
+```
+
+---
+
 ## 🔮 Future Improvements
 - Add hybrid keyword + vector search
 - Support real-time data updates

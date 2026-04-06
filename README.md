@@ -77,13 +77,19 @@ Follow the steps below to run both the frontend and backend services locally.
 
 ### 1. Start the Docker engine for Qdrant vector database
 
-### 2. Run the Inngest development server
+### 2. Start the FastAPI backend
+
+```bash
+uv run uvicorn main:app
+```
+
+### 3. Run the Inngest development server
 
 ```bash
 npx inngest-cli@latest dev -u http://127.0.0.1:8000/api/inngest --no-discovery
 ```
 
-### 3. Start the Frontend (Streamlit)
+### 4. Start the Frontend (Streamlit)
 
 Run the following command to launch the Streamlit app:
 
